@@ -1,0 +1,413 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A serious review of some principles of the Quakers. Wherein error is discovered, and truth defended. / By P.E.</title>
+            <author>P. E.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1655</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 38 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B03063</idno>
+            <idno type="STC">Wing E25C</idno>
+            <idno type="STC">ESTC R174808</idno>
+            <idno type="EEBO-CITATION">52528799</idno>
+            <idno type="OCLC">ocm 52528799</idno>
+            <idno type="VID">178765</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B03063)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 178765)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2770:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A serious review of some principles of the Quakers. Wherein error is discovered, and truth defended. / By P.E.</title>
+                  <author>P. E.</author>
+               </titleStmt>
+               <extent>[2], 14+ p.   </extent>
+               <publicationStmt>
+                  <publisher>Andrew Anderson],</publisher>
+                  <pubPlace>[Edinburgh :</pubPlace>
+                  <date>Printed in the year, 1655.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imprint suggested by Wing.</note>
+                  <note>Initial letter.</note>
+                  <note>Lacks all after p. 14.</note>
+                  <note>Imperfect: stained and torn with some loss of text.</note>
+                  <note>Reproduction of the original in the National Library of Scotland.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Society of Friends --  Controversial literature --  Early works to 1800.</term>
+               <term>Society of Friends --  Doctrines --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:178765:1" rendition="simple:additions"/>
+            <p>A SERIOUS REVIEW OF SOME PRINCIPLES OF THE QUAKERS.</p>
+            <p>Wherein <hi>ERROR</hi> is Diſcovered, and <hi>TRUTH</hi> Defended.</p>
+            <p>By <hi>P. E.</hi>
+            </p>
+            <figure>
+               <p>VERITAS. VINCET TANDEM</p>
+            </figure>
+            <p>Printed in the Year, 1655.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:178765:2"/>
+            <pb n="1" facs="tcp:178765:2"/>
+            <head>A SERIOUS REVIEW OF SOME PRINCIPLES OF THE QUAKERS.</head>
+            <p>
+               <seg rend="decorInit">I</seg> Do not at this time write, becauſe I would maintain Truth in maintaining any Sect, know<g ref="char:EOLhyphen"/>ing that there be many, in this age, who do owne, in their judgement, many parts of Truth, or ſeverall ſound Principles of Religion, as it were by pieſe-meal, who, notwithſtanding in many more things, if not in the moſt, do erre. And therefore, as one having ceaſed from man, being dead to all Sects, I do, I ſay, I do at this time only vindicate Truth for it ſelf, without all relation to the upholding of any Sect whatſoever, but in ſo far as they do owne any part of the Truth. Having premiſed theſe few lines, I ſhall lay down ſeverall Principles of the Quakers, and, as I propound them, ſhall refute them: yet ſhall I ſpeak of none of them but of ſuch as be moſt known, that they may not have it to ſay that I do wreſt their words and do belye them.</p>
+            <p n="1">I. <hi>That man, as a creature, is not equall with God, but as he is joyned to the Lord, being one Spirit with him.</hi>
+            </p>
+            <p>This is the Doctrine of <hi>Geo. Fox,</hi> as witneſſeth <hi>Ja. Nailer,</hi> in an<g ref="char:EOLhyphen"/>ſwer to the Book called, <hi>The Perfect Phariſee,</hi> pag. 4. whoſe words
+<pb n="2" facs="tcp:178765:3"/>
+be theſe, <hi>viz. — I was in the hearing of four Juſtices of the Peace, where he was asked</hi> (meaning <hi>Geo. Fox) whether he ſpake this of</hi> G. Fox. <hi>as he was a creature?</hi> i.e. <hi>that</hi> G. Fox <hi>was equall with God. To which he anſwered, I deny,</hi> G. Fox, <hi>he is duſt and muſt to duſt, but I and my Father are one: and he that is joined to the Lord is one Spi<g ref="char:EOLhyphen"/>rit. — At which the Juſtices were ſatisfied that he ſpake of the Spirit of Chriſt in him, and thereupon did acquit him.</hi> A ſubtile Anſw. to an ill ſtated Queſtion: for I do obſerve in it much of the depths of Sa<g ref="char:EOLhyphen"/>than, whereby the Juſtices were outwitted. No wonder: for in ſtating the Queſtion they gave him a great deal of advantage. It doth ne<g ref="char:EOLhyphen"/>ceſſarly imply that there was ſomething in <hi>Geo. Fox</hi> which was incre<g ref="char:EOLhyphen"/>ated, not a creature but a Creator. Otherwiſe to what purpoſe did they propound the Queſtion thus? Whether or not (in ſaying that he was equall with God) did he ſpeak this of <hi>Geo. Fox</hi> as he was a creature? even as if <hi>G. Fox</hi> had been any other thing then a creature. In this I deſire that theſe things may be obſerved. Firſt, that neither <hi>Fox</hi> nor <hi>Nailer</hi> do deny abſolutely that <hi>Geo. Fox</hi> ſhould ſay that he was equall with God: they deny not theſe words, only <hi>Geo. Fox</hi> ſhifts the Juſtices with his ſenſe thereof as is abovewritten. Secondly, I deſire any ſerious ſober man whatſoever to conſider, and I leave it with him to judge (take it in the beſt ſenſe) if any man can call theſe the words of truth and ſoberneſſe, for <hi>Geo. Fox</hi> to ſay that he was equall with God. I appeal him if ever any Scripture-Saint ſaid ſo ex<g ref="char:EOLhyphen"/>cepting Jeſus Chriſt, who was both God and Man. Thirdly, I deſire <hi>George Fox</hi> to tell me what he meaneth by that, <hi>viz. I and my Fa<g ref="char:EOLhyphen"/>ther are one,</hi> and, <hi>he that is joined to the Lord is one Spirit.</hi> Either he underſtandeth it concerning a ſubſtantiall or a myſticall oneneſſe betwixt God and man. If a ſubſtantiall, then it is as much as if <hi>George</hi> had ſaid that the very ſubſtance and eſſence of God is in him and one with him. Which being ſo, then without diſpute there is ſomething increated in him; and ſo equall with God. Howſoever the Scri<g ref="char:EOLhyphen"/>ptures which he alledgeth will not bear him out therein. Not the former: for it only ſpeaketh of CHRIST, <hi>I and my Father are one,</hi> John 10.30. In which Chapter the Lord Chriſt laboureth to prove his equality with God. But will <hi>Geo. Fox</hi> make application of that Scripture to himſelf? he doth ſo by comparing it with <hi>Joh.</hi> 17.21, 23. Now take notice how he confounds Chriſts onenes with God, and
+<pb n="3" facs="tcp:178765:3"/>
+Saints onenes with him. And ſeeing he puts no difference betwixt them, but makes application of that ſame very Scripture to himſelf, whereby Chriſt aſſents his equality with God; It follows by inevitable conſequence, that the man underſtands Saints to be equall with God: Which is alſo evident from his own confeſſion. For though he deni<g ref="char:EOLhyphen"/>eth <hi>G. Fox,</hi> as a creature, to be equall with God, yet he doth not deny it in reſpect of the Spirit of Chriſt in him: Whereupon he eva<g ref="char:EOLhyphen"/>ded the Juſtices of the Peace, as is above-written. Notwithſtanding that, yet is it clear that Saints onenes with God, is nothing elſe but like the Husbands onenes with the Wife, or the Wifes with the Husband: as is moſt evident from that other Scripture, 1 <hi>Cor.</hi> 6.17. he maketh uſe of,—<hi>He that is joined to the Lord is one ſpirit.</hi> Would <hi>George</hi> compare this with the latter part of <hi>v.</hi> 16.—<hi>For two (ſaith he) ſhall be one fleſh.</hi> He would needs alter his mind? for the Apoſtle in theſe words alludes to that onenes which is betwixt man and wife, ſpoken of, <hi>Gen.</hi> 2.24. <hi>Mat.</hi> 19.5, 6. <hi>Mar.</hi> 10.7, 8. <hi>Eph.</hi> 5.26. And ſo compares the onens of the Saints with God, in reſpect of one Spirit, with that onenes which is betwixt Man and Wife. But who can ſay, that the onenes betwixt Man and Wife is ſubſtantiall, and not myſticall? Will any ſay, that becauſe the Scripture doth call them one, even one fleſh, they do make up but one ſubſtance? Is it not evident notwithſtanding this onenes, that they be different and diſtinct ſubſtances? So then, ſeeing the Scripture likeneth the onenes of Saints with God, thereto, may not I juſtly ſay, that as God and Saints are one, I ſay as they are one, ſo they are really and ſubſtantially diſtinct one from another? And that the ſubſtance and eſſence of God is not united to the creature? But if at laſt <hi>George</hi> ſhall ſay, that the oneneſs with God is only myſti<g ref="char:EOLhyphen"/>call and vertuall, <hi>i. e.</hi> in reſpect of Gods acting and working in Saints, by the power of that ſame ſpirit that is in himſelf, bringing them into a comformity to it ſelf) then hath he nothing for himſelf to ſay, but muſt needs, in every reſpect without all exception, deny himſelf to be equall with God, whether he conſider himſelf as <hi>G. Fox,</hi> or as ſancti<g ref="char:EOLhyphen"/>fied by the Spirit of Chriſt in him: For ſo even his Sanctification, and the Spirit of Chriſt in him, are nothing elſe, but created things. And I deſire <hi>George</hi> not to think this ſtrange Doctrine: For doth not the Scripture comprehend all that is of God in Saints, under the notion of the New Creature? 2 <hi>Cor.</hi> 5.17. <hi>Gal.</hi> 6.15. And if it be a creature,
+<pb n="4" facs="tcp:178765:4"/>
+then is it not increated, but created. But if <hi>George</hi> be tenacious, I de<g ref="char:EOLhyphen"/>ſire him to tell me, What of God? What of the Spirit of Chriſt? did ever be experience beſide that which is the New-Creature in him. Or rather I deſire him to ſhew me where the Scripture doth contradi<g ref="char:EOLhyphen"/>ſtinguiſh the one from the other. Yea, the Scripture doth call all the works or appearances of God in the creature, a new man, implying that as is man, ſo it is a created thing. And therefore it is ſaid to be <hi>created af<g ref="char:EOLhyphen"/>ter God, in righteouſneſſe, and true holineſſe,</hi> Epheſ. 4.24. So then <hi>George</hi> ſhould not underſtand the Spirit of Chriſt to be any other ways in Saints, but in reſpect of the fruits thereof, <hi>Gal.</hi> 5.22, 23. or in re<g ref="char:EOLhyphen"/>ſpect of the power and operation thereof, <hi>Eph.</hi> 3.7. 2 <hi>Tim.</hi> 1.7. The Scripture doth no where ſay that God dwells Bodily in any, but in Chriſt, <hi>Col.</hi> 2.9. I confeſſe the Scripture doth ſpeak of Gods and Chriſts being in Saints, in reſpect of the fruits of the Spirit; <hi>viz.</hi> faith, <hi>Eph.</hi> 3.17. hope, <hi>Col.</hi> 1.27. love, 1 Joh. 4.16. confeſſion, <hi>v.</hi> 15. and obedience, <hi>ch.</hi> 3.24. Upon which account Saints very juſtly may be ſaid to partake of the Divine Nature, 2 <hi>Pet.</hi> 1.4. in ſo far as they do partake of the fruits of the Spirit, and are acted by the power of the Divine Nature. But who will ſay that there is not a ſubſtantiall diffe<g ref="char:EOLhyphen"/>rence betwixt the tree, and its fruit? The Sun, and its heat? Will you ſay that he that hath the fruit of the tree, hath the ſubſtance of the tree? Or that the ſubſtance of the Sun is in a man, becauſe he is made hote by the vertue of it? So no man hath reaſon to ſay that the Spirit ſubſtantially is in the creature, becauſe it partakes of the fruits thereof, or that God in his ſubſtance and eſſence is in the creature, as being united to it, becauſe he acts in it by his Divine power.</p>
+            <p>Secondly, <hi>That the ſoul is a part of the Divine Eſſence.</hi>
+            </p>
+            <p>I ſhall not ſay that <hi>Nayler</hi> doth poſitively ſay ſo. Yet I ſhal leave it with any impartiall man to judge, whether it be not moſt apparent, yea, or not, that this is their Doctrine, at leaſt his, theſe things being conſidered: (1.) Becauſe in his anſwer to the Book called the <hi>Perfect Phariſee,</hi> pag. 6. he ſets it down as a part of the charge againſt the <hi>Quakers,</hi> wherewith five of the Chief Prieſts dwelling beſide <hi>New-Caſtle</hi> did charge them, as he ſaith: And in his anſwer thereto, he neither poſitively denieth it, nor confeſſeth it: But in ſtead of deny<g ref="char:EOLhyphen"/>ing it, he chargeth them of pleading for ſin, to keep the ſoul at a di<g ref="char:EOLhyphen"/>ſtance from God. (2.) In other things he is very plain, poſitively
+<pb n="5" facs="tcp:178765:4"/>
+denying thoſe things wherewith he, and his are charged. Which make me ſay, that either he deals ſubtilly in the matter, or elſe that the charge againſt him and the reſt, is true: Otherwayes, what may be his reaſon of not denying this charge, as well as other things that he and his are charged with? Put it on this iſſue, and I charge him (if there be any ſingleneſſe of heart in him) on the behalf of the Truth, as in the preſence of God, that errour may be diſcovered, and Truth manifeſted; either to affirm or deny the foreſaid charge, <hi>viz.</hi> That the ſoul is a part of the Divine Eſſence, and not deal deceitfully in ſhifting the point. (3.) He backs his anſwer to the charge with this Scripture, — <hi>He that is joyned to the Lord, is one Spirit,</hi> 1 Cor. 6.17. O the depths of Sathan! If there be any ſpirituall or impartiall man, let him judge now, if this Scripture be not brought with a pur<g ref="char:EOLhyphen"/>poſe to deceive. Can any man ſay, that this is brought by him to make it appear that he denies the ſoul to be of the Divine Eſſence? Conſidering how that not only the words thereof taken as they ly, without farther conſideration, import the juſt contrary, but alſo <hi>G. Fox</hi> made uſe of the ſame in proving himſelf to be equall with God, in reſpect of the Spirit of Chriſt in him. But if he poſitively confeſſe that the ſoul of man is a part of the Divine Eſſence, then I leave it with you to judge, who know not the depths of Sathan as they do, if theſe groſſe and blaſphemous abſurdities will not follow thereupon. Firſt, That the Divine Eſſence is ſubject to changes as is the ſoul of man, it being of the ſame nature and ſubſtance. Secondly, That as is the ſoul of man, ſo a part of the Divine Nature is ſubject to be loſſed. Third<g ref="char:EOLhyphen"/>ly, That as the ſoul, ſo a part of the Divine Eſſence ſhall be damned and tormented for ever. Beſide many other horrid abſurdities, con<g ref="char:EOLhyphen"/>trary to the Scriptures, which may make any ear to tingle.</p>
+            <p>Thirdly, <hi>That Chriſt is in all men, even in the moſt vile among men.</hi>
+            </p>
+            <p>This is their common Doctrine: And therefore ſaith <hi>Nayler, — If Chriſt be not in the moſt vile in the world, there to ſee the hearts, thoughts, and intents, how ſhall he judge every one according to their thoughts,</hi> &amp;c. — Anſwer to the <hi>Perfect Phariſee,</hi> pag. 7. To prove this he alledgeth, <hi>Joh.</hi> 1.9. <hi>That was the true light, that lighteth every man that cometh into the world.</hi> Poor creature, he is much miſtaken in this: He erreth not knowing the Scriptures. The
+<pb n="6" facs="tcp:178765:5"/>
+Scripture doth expound this two wayes, Firſt, In reſpect of the ſpirit of man: <hi>The ſpirit of man [is] the candle of the Lord, ſear<g ref="char:EOLhyphen"/>ching all the inward parts of the belly,</hi> Prov. 20.27. Whence it is evi<g ref="char:EOLhyphen"/>dent that the ſpirit of man is not only the Lords lamp light or candle, but alſo that which ſearcheth the moſt ſecret and hidden thoughts of man. According to that, 1 <hi>Cor.</hi> 2.11. <hi>For what man knoweth the things of a man, ſave the ſpirit of man which is in him?</hi> — And thus the Lord Chriſt may very fitly be ſaid to enlighten every ſoul that cometh into the world, in ſo much as that he creats in every one that cometh into the world a ſpirit, which is his candle: <hi>For all things were created by him, and by him do conſiſt,</hi> Col. 1.16, 17. compared with <hi>Joh.</hi> 1.3. So then by the ſpirit that is in man, he doth ſearch the thoughts and intents of the heart, it being his candle. I hope <hi>James Nayler</hi> will not underſtand by this ſpirit any other but that which is naturall, common to good and bad, and not that which is divine and ſupernaturall: For the Apoſtle expreſly, poſitively, and diſtinctly contradiſtinguiſheth the one from the other, I mean the ſpirit of man from the Spirit of God, 1 <hi>Cor.</hi> 2.10, 11. Secondly, In reſpect of that which by God is written in the heart of every man that cometh into the world. <hi>For when the Gentiles who have not the Law, do by na<g ref="char:EOLhyphen"/>ture the things contained in the Law, theſe having not the Law are a Law unto themſelves; Which ſhew the work of the Law written in their hearts, their conſcience alſo bearing witneſſe, and their thoughts the mean while accuſing, or elſe excuſing one another,</hi> Rom. 2.14.15. Whence may be obſerved, that God hath put a naturall light in every mans heart and conſcience, by which they are not only accuſed in not doing, and excuſed in doing that which is contained in the Law, but alſo thereby are enacted to do the thing therein contained. Hence it is, that <hi>Paul</hi> in <hi>Rom.</hi> 1.28. ſaith, that perſons not willing to retain this knowledge, and to improve it, were <hi>given up to fulfill their own luſts, bringing upon themſelves ruine and deſtruction.</hi> Rom. 1.18, 19, 20, 21. And thus it is that the candle of the wicked is put out, <hi>Job</hi> 21.14, 15, 17. <hi>Prov.</hi> 13.9. <hi>ch.</hi> 24.20. Now as all things are crea<g ref="char:EOLhyphen"/>ted, and kept in being by Chriſt, ſo every one that cometh into the world through Chriſt, is enlightened with this naturall light. Hence you may ſee how true, and in what ſenſe it is true, that Chriſt ligh<g ref="char:EOLhyphen"/>teth every one that cometh into the world. But what is all this to
+<pb n="7" facs="tcp:178765:5"/>
+prove that Chriſt is in every man that cometh into the world? The Scri<g ref="char:EOLhyphen"/>pture denyeth Chriſt to be in the reprobate:— <hi>Know ye not your own ſelves, how that Jeſus Chriſt is in you, except you be reprobats,</hi> 2 Cor. 13.5. Thus reprobates are excepted from having of Chriſt in them: And good reaſon for it too. Firſt, becauſe thoſe in whom Chriſt is, are dead becauſe of ſin, <hi>Rom.</hi> 8.10. But reprobates, wicked and ungodly men, are dead in ſins and treſpaſſes. Secondly, becauſe <hi>thoſe that have not the Spirit of Chriſt, are not Chriſts,</hi> Rom. 8.9. <hi>And thoſe that have not the Spirit of Chriſt, have not Chriſt:</hi> for he is the Spi<g ref="char:EOLhyphen"/>rit, 2 <hi>Cor.</hi> 17. But who can ſay that wicked and ungodly men, repro<g ref="char:EOLhyphen"/>bate to every good word and work, that they are Chriſts? and conſe<g ref="char:EOLhyphen"/>quently that the Spirit of Chriſt is in them. Thirdly, The Spirit is life, becauſe of righteouſneſſe in whom Chriſt is, <hi>Rom.</hi> 8.10. and in ſuch there is liberty, 2 <hi>Cor.</hi> 3.17. But who can ſay ſo of men of repro<g ref="char:EOLhyphen"/>bate minds? Fourthly, The Scripture doth ſay that Chriſt is in the creature, in reſpect of the faith and hope of glory that is in it, <hi>Eph.</hi> 3.17. <hi>Col.</hi> 1.27. But who will ſay that there is any ſuch thing in the vi<g ref="char:EOLhyphen"/>leſt of men. Fifthly, Perſons in a carnall ſtate are ſaid to be without Chriſt, without hope, and without God in the world, <hi>Eph.</hi> 2.12. How then can it be ſaid that Chriſt is in any in ſuch a condition?</p>
+            <p>Fourthly, <hi>That ſome perſons are come up out of the fall.</hi>
+            </p>
+            <p>So ſaith <hi>Nailer. And this we witneſſe, and all witneſſe it who are come up out of the fall.</hi> Anſ. to <hi>Perf. Phar.</hi> pag. 6. I deſire <hi>James</hi> to deal ſingly with me in this, what he meaneth by the fall. Either he underſtands the firſt fall in <hi>Adam,</hi> or elſe ſuch fallings as Saints are ly<g ref="char:EOLhyphen"/>able to. If the former, then it neceſſarily followeth that Saints may, and do recover themſelves to that ſtate of perfection without ſin in which <hi>Adam</hi> was created, <hi>Eccleſ.</hi> 7.29. <hi>God hath made man upright,</hi> (or) <hi>pefect,</hi> — But ſince <hi>Adams</hi> fall, the Scripture concludes the beſt of men under ſin, 1 <hi>Kin.</hi> 8.46. 2 <hi>Chr.</hi> 6.36. <hi>Pſal.</hi> 130.3. <hi>Eccleſ.</hi> 7.20. <hi>Gal.</hi> 3.22. <hi>Jam.</hi> 3.2. <hi>Joh.</hi> 1.8, 10. Nevertheleſſe I do own a perfecti<g ref="char:EOLhyphen"/>on (of which I ſhall not ſpeak now) though not without ſin. Of which <hi>Paul</hi> ſpeaks, owning himſelf in one ſenſe to be perfect, <hi>Phil.</hi> 3.15. and denying it in another, <hi>v.</hi> 12. The latter cannot be the thing that <hi>James</hi> intends, for wicked men never knew what it is to fall ſo, ſeeing they never knew what it is to ſtand before ſuch a fall be: And ſo they never lived nor were in ſuch a fall. But he ſpeaks with relati<g ref="char:EOLhyphen"/>on
+<pb n="8" facs="tcp:178765:6"/>
+to wicked mens living in the fall, which muſt needs be underſtood in relation to that fall in <hi>Adam:</hi> for in him both good and bad did fall. But it is evident from 12. <hi>pag.</hi> and <hi>Anſw. to</hi> 10. <hi>Poſit.</hi> that <hi>James</hi> doth maintain a perfection without ſin: For as there he doth not deny it, being charged therewith as an errour, ſo (as is ſaid already) he main<g ref="char:EOLhyphen"/>tains a coming up out of the fall: And beſide this, he charges thoſe as pleaders for ſin, who maintain that there is no perfection without ſin in this life, whereas the Scripture in the places above-cited is moſt clear therein, as any man may read and obſerve at his leaſure: I might appeal to any mans reading thereof.</p>
+            <p>Fifthly, <hi>No imperfect thing can be reconciled to God.</hi>
+            </p>
+            <p>So ſaith <hi>Nayler. — That no imperfect thing can be reconciled to God, is plain in Scripture. Anſw.</hi> To <hi>Perf. Phar. pag.</hi> 9. Though this be not ſo groſſe as the reſt, yet it is as ſtrange and unreaſonable as any of them: For in reaſon the contrary is true; <hi>viz.</hi> That no per<g ref="char:EOLhyphen"/>fect thing can be reconciled to God. And that becauſe as a thing is perfect it needs no reconciliation, even as the whole needs no Phyſi<g ref="char:EOLhyphen"/>cian, and where no Law is, there is no tranſgreſſion. A reconcilia<g ref="char:EOLhyphen"/>tion doth neceſſarily preſuppoſe enimity and diſcord; which is never without offence either on the one part or on the other. Now it can<g ref="char:EOLhyphen"/>not be ſaid that a perfect thing, as it is perfect, is guilty of any offence; and ſo cannot be at enimity with God, as it is perfect: And conſe<g ref="char:EOLhyphen"/>quently in ſuch a caſe, there is no place for reconciliation, as being that which it needeth not. Will you ſay that two perſons who were never diſcorded, and never did offend one another are reconciled? No verily: But on the contrary, that ſuch are reconciled one to ano<g ref="char:EOLhyphen"/>ther, who formerly becauſe of offence, on the one part or other, diſcorded, and now are agreed. So that reconciliation is among ene<g ref="char:EOLhyphen"/>mies, and not among friends, betwixt the party offending, and the party offended. The party offending is man, on whoſe part the of<g ref="char:EOLhyphen"/>fence is, and the Party offended, is God, becauſe of ſin on mans part: And being ſinfull, offenſive, and imperfect, Chriſt reconciles him to God, according to that, <hi>Rom.</hi> 5.10. <hi>For if when we were enemies, we were reconciled to God by the death of his Son.</hi> — This recon<g ref="char:EOLhyphen"/>ciliation is, as we were enemies, as we ſtood in need of a Mediator, of a Reconciler, of a Dayes-man. And ſo the object of this reconciliato<g ref="char:EOLhyphen"/>ry grace, is we enemies, without Chriſt, without hope, and without
+<pb n="9" facs="tcp:178765:6"/>
+God in the world; and ſo imperfect. But being reconciled, we are perfected through his grace, being compleat in him, <hi>Col.</hi> 2.10. For the Lord Chriſt reconciles enemies, even ſuch as be imperfect, <hi>that he may preſent them perfect before God, without ſpot and wrinkle, Col.</hi> 1.21, 22. Therefore I conclude that that which is imperfect can be re<g ref="char:EOLhyphen"/>conciled to God, and is plain in Scripture.</p>
+            <p>Sixthly, <hi>That Jeſus Chriſt is the only light, and no other light be<g ref="char:EOLhyphen"/>ſides him for ſalvation.</hi>
+            </p>
+            <p>So ſaith <hi>Nayler, — Jeſus Chriſt is the only light, and there is none beſides him to guid to ſalvation. — Anſw.</hi> to <hi>Perfect Phari<g ref="char:EOLhyphen"/>ſee, pag.</hi> 12. Where alſo he ſaith, <hi>that this light — needs no out<g ref="char:EOLhyphen"/>ward light, and diſcovery.</hi> Thus he affirms that Chriſt is ſo the light to ſalvation, as if it did exclude all other light beſides. But I would have this poor blind creature to obſerve, that the Scripture calls Chriſt <hi>the light, (i. e.</hi> by way of eminency) <hi>Joh.</hi> 1.8, 9. and it ſelf <hi>a light, Pſal.</hi> 119.105. 2 <hi>Pet.</hi> 1.19. as being ſubordinate to <hi>the light.</hi> And thus the one doth not exclude, but include the other.</p>
+            <p>Seventhly, <hi>That</hi> Adam <hi>in the ſtate of innocency was not under the Covenant of Works.</hi>
+            </p>
+            <p>Becauſe that ſome Prieſts in, and about <hi>Newcaſtle,</hi> ſaid, and wrot, that <hi>Adam</hi> in his innocent ſtate was under the Covenant of Works. Therefore <hi>Nayler</hi> checks them: Giving this as a reaſon, <hi>Becauſe</hi> (ſaith he) <hi>the Law wherein is the Covenant of Works was added af<g ref="char:EOLhyphen"/>ter, becauſe of the tranſgreſſion. Anſ.</hi> to <hi>Perf. Phar.</hi> pag. 10. But they poor creatures (as all of them are) being as ignorant, or rather more then he, in propounding the thing looſely, give him much advantage in the matter. But to vindicate the truth, I ſhall offer this diſtinction. It can not be ſaid, that <hi>Adam</hi> in the ſtate of inno<g ref="char:EOLhyphen"/>cency was under the Covenant of Works, as being under a Law: <hi>For where no Law is, there is no tranſgreſſion, Rom.</hi> 4.15. Yea, and <hi>the Law is not for the righteous, but for the rebellious,</hi> 1 <hi>Tim.</hi> 1.9. And ſo in this ſenſe it is true (as <hi>Nayler</hi> hath minded) that the Law was added becauſe of tranſgreſſion, <hi>Gal.</hi> 3.10. Notwithſtanding, <hi>A<g ref="char:EOLhyphen"/>dam</hi> was under a Law from within, <hi>i. e.</hi> he was ſubject to the Law within him, he himſelf being a Law to himſelf: For God having made him perfect, <hi>Eccl.</hi> 7.29. put the Law in its eminency and perfection in him, which in the relicts and tincture thereof is in all men by na<g ref="char:EOLhyphen"/>ture,
+<pb n="10" facs="tcp:178765:7"/>
+               <hi>Rom.</hi> 2.14, 15. being a Law to themſelves, do the things con<g ref="char:EOLhyphen"/>t<gap reason="illegible" resp="#UOM" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>d in the Law. And the Lord, to make him the more ſenſible of this Law within him, did not altogether leave him void of a Law from without, in commanding him to eat of all the trees in the Garden, ex<g ref="char:EOLhyphen"/>cepting that of the tree of the knowledge of good and evill. Which through covetouſneſſe, the root of all evill (a breach of the 10<hi rend="sup">th.</hi> Command) he brake, in coveting the fruit of the Tree, and being de<g ref="char:EOLhyphen"/>ſirous to be like God: In doing of which, he lived, and tranſgreſſing of which, he died. Whence it is evident, that in a right ſenſe <hi>Adam</hi> was under the Covenant of Works.</p>
+            <p>Eightly, <hi>That the Scripture is not the Word of God.</hi>
+            </p>
+            <p>So ſaith <hi>Nailer. Now if the Scriptures be the Word which had their beginning ſince all were made, and did not become fleſh, then there are two Words of God. Now prove that in Scripture; Or that the letter is called the Word in plain words, and the Apoſtle cals what he wrote a Declaration,</hi> 1 Joh. 1.3. Anſ. to <hi>Perf. Phar.</hi> pa. 15. where he alſo ſaith that Chriſt is the Word. In anſwer to which, I ſhall deſire this man with me to obſerve, that the Scripture doth no where call Chriſt the Word, though it be ſo tranſlated. The Scriptures that ſpeak of this are in <hi>Joh.</hi> 1.1. 1 <hi>Joh.</hi> 5.7. <hi>Rev.</hi> 19.13. Where Chriſt (as it is in the Greek) is called, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Which ought to be rendered, <hi>The Reaſon:</hi> for I have not only found it ſo accented, (in the correcteſt Greek Copie that, to my knowledge, is extant in theſe times) as it im<g ref="char:EOLhyphen"/>ports ſuch a ſignification, but likewiſe it is more then evident that Chriſt very pertinently and juſtly may be called, <hi>the Reaſon.</hi> And that becauſe he is the very cauſe, ground and reaſon of all Gods actings and manife<g ref="char:EOLhyphen"/>ſtations toward the creature. If it ſhould be asked, What is the rea<g ref="char:EOLhyphen"/>ſon of Gods electing us? The anſwer is, Chriſt is the reaſon thereof, <hi>Eph.</hi> 1.4. Or what is the reaſon why we are redeemed? <hi>Anſ.</hi> Chriſt is the reaſon thereof, <hi>Eph.</hi> 1.7. Or what is the reaſon why all things are created, conſerved and kept in being, enemies, yea and all things are reconciled to God? <hi>Anſ.</hi> Chriſt is the reaſon thereof, <hi>Col.</hi> 1.13. to 21. <hi>Rom.</hi> 5.10 In a word, he is to us, all, in all. And therefore the Cauſe, the Ground, the Reaſon of all things to us. Moreover, is it not more agreeable to the nature of Chriſt, I ſay, to the nature of Chriſt, to be called the Reaſon, than the Word? Reaſon is a ſubſtan<g ref="char:EOLhyphen"/>tiall thing, having words as its fruits. Look ſeriouſly upon the words
+<pb n="11" facs="tcp:178765:7"/>
+as they are in themſelves, and you will find th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> more pertinent and ſignificant to expreſſe the natu<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> other. Yea <hi>John,</hi> having called Chriſt, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>things were made through him, and without him w<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> made that was made,</hi> Joh. 1.4. Clearly implying him <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of all things, why they are created and kept in being. <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> that God <hi>is well pleaſed in him,</hi> Matth. 3.17. as find <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> him, why God is well pleaſed in him. And thus it is that <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> enough of reaſon in him, why all things ſhould be for him, and <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> him: for in him is all fulneſſe, and in him dwelleth the fulneſſe <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> God-head bodily, <hi>Col.</hi> 1.19. <hi>ch.</hi> 2.9. And thus, as Chriſt is the <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſon, we may therein clearly ſee, what God in Chriſt is. And whe<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>Nailer</hi> ſaith, at leaſt, avoucheth that, from plain Scripture, it can<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> be proved, that the Scripture is the Word of God. Give me leave t<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> ſay, he is miſtaken: for ſaith <hi>Peter, The Word of the Lord endureth for ever: and that is the Word which by the Goſpel is preached unto you,</hi> 1 Pet. 1.25. I deny not but Chriſt is preached by the Goſpel: ne<g ref="char:EOLhyphen"/>vertheleſſe Chriſt is preached by words, in the preaching of the Go<g ref="char:EOLhyphen"/>ſpel: <hi>for holy men of God ſpake as they were moved by the Holy Ghoſt,</hi> 2 Pet. 1.21. Which words are the prophecy of the Scripture, <hi>v.</hi> 19, 20. And ſo this Prophecy of the Scripture, being that which was preached by the Apoſtles to the Saints of old, it muſt needs be the Word of God, ſeeing that is called the Word of God which the Apoſtles prea<g ref="char:EOLhyphen"/>ched to them. Again, I may ſay truely that thoſe poor creatures do erre, not knowing the Scriptures: for through their ignorance they doe confound things that differ. Their conceit is, that in this place by the Word is underſtood Chriſt, becauſe elſewhere he is called the Word, according to our common Tranſlations. Give me leave to tell them, that there is a great difference bewixt <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as it is in this of <hi>Peter,</hi> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as it is in the places above-cited: For as the one doth properly ſignifie the Reaſon, ſo the other doth properly ſignifie the Word. Neither can they produce me one Scripture where Chriſt is called <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as I can produce concerning the words of the Goſpel, namely, <hi>Joh.</hi> 6.63. It may be they will call this Colledge ſtuffe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> But truly I muſt needs ſay, that in this I do ſpeak pure Scripture, as it was written by the Apoſtles: whereas they implicitely ſpeak no more but other mens tranſlations. But I admire why they ſay that the Scri<g ref="char:EOLhyphen"/>pture
+<pb n="12" facs="tcp:178765:8"/>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>f God, ſeeing it is not only given by Divine <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 16. of no private interpretation, the holy men <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>en it, as it was ſpoken in them by God, 2 <hi>Pet.</hi> 1. <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> it is called the foundation of the Prophets, and A<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 20. as being the ground of our faith. Which made <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>at he hoped and truſted in the Word of the Lord, <hi>Pſal.</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 130.5. Thus it is plain in the Scripture, that the Scri<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> only a Declaration of the will of God, but alſo the Word <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>hly, <hi>That it is not lawfull to call any ſingle perſon any thing but <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>, or Thee.</hi>
+            </p>
+            <p>
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>his is known by all, to be one of their principles, as is evident from <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their deportments. And for this they ſay, that all the Saints in Scripture did write and ſpeak ſo in all their writings and ſpeakings to ſingle perſons, and no otherwayes. But I may ſay, that they need not put ſuch a ſtreſſe upon this, as if it were ſome abſolute diſtingui<g ref="char:EOLhyphen"/>ſhing character of Saints, to ſpeak, and write ſo: For this is alſo moſt ſure, that all carnall men we read of in the Scriptures, in ſpeaking, and in writing, whether to Saints, or to one another, did ſpeak and write ſo to ſingle perſons, as any man may obſerve in reading the Scriptures. The reaſon of it is at hand: Becauſe the Hebrew and the Greek (in which the Scriptures were firſt written) are regular Languages obſer<g ref="char:EOLhyphen"/>ving the propriety and rigour of conſtruction: And therefore to have ſpoken or written to ſingle perſons, but in the Singular Number, it had been barbarous and non-ſenſicall. Hence it is that all Epiſtles in Latine among very Heathens to ſingle perſons of whatſover rank is ſo. Whereas the propriety of our Language is of a larger latitude: So that thoſe words which are tranſlated Thou, or Thee, might very well have been rendered You. And had it been done ſo, I queſtion much if any of thoſe poor creatures ſhould have had the wit to put any difference in the matter. Beſides, do they not know that <hi>Mary</hi> called Chriſt Sir, or Lord? not knowing but he had been the Gardiner, <hi>Joh</hi> 20.15. She was one of Chriſts Diſciples at this time: and they themſelves pretend to no more. Yea, it is ſaid that ſhe loved much, becauſe much was forgiven her: A greater teſtimony and approbation then is either ſeen or read of them. Moreover, <hi>John</hi> in writing to, and of one, calls her the E<g ref="char:EOLhyphen"/>lect Lady, which may be alſo tranſlated the Elect Miſtreſſe. Whence
+<pb n="13" facs="tcp:178765:8"/>
+I obſerve, that it is lawfull to call a man Sir, <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Lady, or Miſtreſſe. How often do we read <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> great men, call them Lord, King, and ſuch like. <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> moſt excellent <hi>Theophilus,</hi> and <hi>Paul moſt powerfu<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſlated) moſt noble <hi>Feſtus.</hi> And therefore I may juſ<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> lawfull to ſpeak otherwiſe to ſingle perſons then as is <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſtome of the <hi>Quakers,</hi> in ſaying <hi>thou,</hi> or <hi>thee.</hi>
+            </p>
+            <p>As for their quaking and trembling, I ſhall only ſpe<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> by the way, owning quaking and trembling in a Scripture <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> is, <hi>Pſal.</hi> 119.120. <hi>Iſa.</hi> 66.2. <hi>Hab.</hi> 3.16. <hi>Phil.</hi> 2.12. and <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> other Scriptures beſide, of which poſſibly I could ſpeak as m<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> more then they, in my experience, though I cannot endure to <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> publick theatre thereof, as they do.</p>
+            <p>Tenthly, <hi>That it is not lawfull to ſalute any by lifting the Cap, <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> bowing the Body.</hi>
+            </p>
+            <p>This likewiſe is publickly known to be one of their principles, which is not only againſt Scripture practice, but alſo Scripture precept. That it is commanded, See 1 <hi>Pet.</hi> 3 8.— <hi>Be courteous,</hi> which is not courteſie by way of charity properly ſo taken (as one of themſelves did once in<g ref="char:EOLhyphen"/>ſinuate to me) but courteſie by way of humanitie and civilitie: For the word in the Greek doth import no leſſe then courteſie as it is com<g ref="char:EOLhyphen"/>monly taken and given among men. Beſide, the ſame Apoſtle exhorts them to charity in a command diſtinct from this, 1 <hi>Pet.</hi> 4.8, 9. But will nothing pleaſe them? unleſſe both commands be one. Beſides, the Lord Chriſt exhorts and commands his Diſciples in ſending them forth to Preach, to ſalute every houſe they came into, <hi>Matth.</hi> 10.12 The word in the Greek doth import ſuch a ſalutation as is commonly uſed among men: And therefore heathen Writers do make uſe of the ſame word to expreſſe the ſame thing. And conſequently this ſaluta<g ref="char:EOLhyphen"/>tion muſt needs ſpeak ſomething elſe then their ſpeaking of peace to any houſe they entered into: though <hi>Nayler</hi> will have it otherwiſe. Yea the Lord Chriſt will have his Diſciples not only to ſalute their brethren, but their enemies alſo, <hi>Matth.</hi> 5.47. where the word in the Greek is one and the ſame with that of <hi>Matth.</hi> 10.12. Whereby Jeſus Chriſt not only cautions his Diſciples of partiality in their ſalutations (as <hi>Nai<g ref="char:EOLhyphen"/>ler</hi> himſelf ſaith) but likewiſe will have them to ſalute both friends and foes: For in the foregoing verſes, he exhorts them to love their
+<pb n="14" facs="tcp:178765:9"/>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> toward them, as in bleſſing them, praying <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> good; and ſo among the reſt, in ſaluting them. <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> could they have manifeſted their love in this mat<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> their friends more then their enemies? Again, if <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>d <hi>Nailer</hi> doth) that Chriſt only forbids partiality <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>nd doth not allow the ordinary ſalutation among men; <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> as juſtly ſay that the meaning of theſe words in the fore<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>ye love them who love you, what reward have ye,</hi> is <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Chriſts cautioning his Diſciples of partiality in their love, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> allowing them to love, whether thoſe that hated them, or <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> at loved them? I leave it with any rationall man to conſider <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ner the one doth not follow as well as the other: And as for <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ture practice, it is moſt frequent in the Scriptures. So <hi>Abraham</hi> 
+               <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>wed twice on end to the Children of <hi>Heth, Gen.</hi> 23.7, 12. Of the <gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>owing and obeiſance of others we read alſo, as of <hi>Jacob,</hi> Gen. 23.3. <hi>Moſes,</hi> Exod. 18.7. <hi>David,</hi> 1 Sam. 20.41. <hi>Abigael,</hi> 1 Sam. 25.41. and ſeverall others that might be named. O! but ſaith <hi>Nailer,</hi> this was their ſin, even as <hi>Joſephs</hi> ſwearing by the life of <hi>Pharaoh,</hi> and <hi>Davids</hi> faining himſelf mad before <hi>Achiſh:</hi> For it croſſeth a command of God which inhibites a bowing down to the creature, <hi>Exod.</hi> 34.7. <hi>Deut.</hi> 5.9. But truely he is very far miſtaken: For theſe Scriptures do only forbid a bowing down to the creature to worſhip it as God, as is moſt clear in the Text. And ſo it reſts upon him to prove that bowing to the creature by way of courteſie and civill reſpect, is a wor<g ref="char:EOLhyphen"/>ſhipping of the creature as God. And whereas he alledgeth it to have been the ſin of theſe Saints abovewritten, and of others to have done ſo, it is ſooner ſaid thou proved. I deſire him to let me ſee in all the Scripture one ſin ſo frequently acted by Saints, as this is, if it may be called a ſin. Not <hi>Joſephs</hi> ſwearing by the life of <hi>Pharaoh,</hi> nor <hi>Da<g ref="char:EOLhyphen"/>vids</hi> faining himſelf mad before <hi>Achiſh:</hi> He cannot ſhow me that either the one or the other is acted again and again by Saints in the Scripture, as bowing to the creature is. So that not only their practice, but alſo the frequently thereof doth aboundantly plead for the lawful<g ref="char:EOLhyphen"/>neſſe of it.</p>
+            <p>Now to conclude the whole matter in few words (having but little time to ſpend in the buſineſſe, being confined to a few lines) I do conclude them to be <hi>the Man of Sin,</hi> of which the Scripture ſpea<gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+            </p>
+            <gap reason="missing" extent="1+ pages">
+               <desc>〈1… pages missing〉</desc>
+            </gap>
+            <pb facs="tcp:178765:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
